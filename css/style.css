@@ -40,6 +40,9 @@ body{
 .link:focus {
   color: var(--accent-cl);
 }
+.curent{
+    color: var(--accent-cl);
+}
 .list{
     list-style: none;
 }
@@ -100,6 +103,7 @@ body{
     color: var(--title-cl);
     }
 .main-text-title{
+    font-size: 14px;
     font-weight: bold;
     line-height: 1.14;
     text-transform: uppercase;
@@ -111,6 +115,7 @@ body{
     text-align: center;
 }    
 .team-title{
+    font-size: 16px;
     font-weight: 500;
     color: var(--title-cl);
     }
@@ -133,6 +138,7 @@ background-color: var(--grey-bg);
 
 }
 .address{
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.74;
 }
